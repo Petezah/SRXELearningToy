@@ -4,3 +4,6 @@
 [submodule "thirdparty/stb"]
 	path = thirdparty/stb
 	url = https://github.com/nothings/stb.git
+[submodule "thirdparty/SmartResponseXE"]
+	path = thirdparty/SmartResponseXE
+	url = https://github.com/Petezah/SmartResponseXE.git
