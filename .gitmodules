@@ -1,0 +1,6 @@
+[submodule "thirdparty/UGUI"]
+	path = thirdparty/UGUI
+	url = https://github.com/achimdoebler/UGUI.git
+[submodule "thirdparty/stb"]
+	path = thirdparty/stb
+	url = https://github.com/nothings/stb.git
