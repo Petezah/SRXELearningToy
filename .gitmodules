@@ -7,3 +7,6 @@
 [submodule "thirdparty/SmartResponseXE"]
 	path = thirdparty/SmartResponseXE
 	url = https://github.com/Petezah/SmartResponseXE.git
+[submodule "thirdparty/tlsf"]
+	path = thirdparty/tlsf
+	url = https://github.com/mattconte/tlsf.git
