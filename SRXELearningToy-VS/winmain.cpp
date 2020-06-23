@@ -1,6 +1,8 @@
 #include <SDL.h>
 #include <Windows.h>
 
+#include "srxelearningtoy.h"
+
 #define SCREEN_WIDTH 384
 #define SCREEN_HEIGHT 136
 
