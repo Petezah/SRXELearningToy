@@ -26,5 +26,8 @@
     <ClInclude Include="..\include\srxelearningtoy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\idisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
