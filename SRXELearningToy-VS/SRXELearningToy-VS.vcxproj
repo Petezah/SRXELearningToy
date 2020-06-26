@@ -172,11 +172,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\srxelearningtoy.cpp" />
+    <ClCompile Include="..\thirdparty\UGUI\ugui.c" />
     <ClCompile Include="winmain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\idisplay.h" />
     <ClInclude Include="..\include\srxelearningtoy.h" />
+    <ClInclude Include="..\include\system.h" />
+    <ClInclude Include="..\thirdparty\UGUI\ugui.h" />
+    <ClInclude Include="..\thirdparty\UGUI\ugui_config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\thirdparty\UGUI\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

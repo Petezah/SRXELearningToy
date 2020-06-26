@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="uGUI">
+      <UniqueIdentifier>{09596d4d-2512-43b3-bc75-c0374cf8a9cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="winmain.cpp">
@@ -20,6 +23,9 @@
     </ClCompile>
     <ClCompile Include="..\src\srxelearningtoy.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\UGUI\ugui.c">
+      <Filter>uGUI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,5 +35,19 @@
     <ClInclude Include="..\include\idisplay.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\thirdparty\UGUI\ugui.h">
+      <Filter>uGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\UGUI\ugui_config.h">
+      <Filter>uGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\thirdparty\UGUI\README.md">
+      <Filter>uGUI</Filter>
+    </None>
   </ItemGroup>
 </Project>
