@@ -73,7 +73,12 @@ public:
 
 	virtual void SetPixel(uint8_t x, uint8_t y, uint8_t c) override
 	{
-
+		char* p = (char*)_screenSurface->pixels;
+		char* pix = p + (_screenSurface->pitch * y) + (x * _screenSurface->format->BytesPerPixel);
+		for (uint8_t i = 0; i < _screenSurface->format->BytesPerPixel; ++i)
+		{
+			*pix++ = c;
+		}
 	}
 
 	virtual void Present() override
@@ -97,7 +102,7 @@ int SDL_main(int argc, char* argv[])
 		return -1;
 	}
 
-	display.ClearDisplay(0x00, 0xFF, 0x00);
+	SRXELearningToy::Instance()->Initialize(&display);
 	display.Present();
 	SDL_Delay(2000);
 
